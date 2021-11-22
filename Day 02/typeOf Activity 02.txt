@@ -1,0 +1,13 @@
+
+Execute the below code and write your description in txt file
+
+typeof(1) - Number
+typeof(1.1) - Number
+typeof('1.1') - String
+typeof(true) - Boolean
+typeof(null) - Object
+typeof(undefined) - Undifined
+typeof([]) - Object
+typeof({}) - Object
+typeof(NaN) - Number
+
