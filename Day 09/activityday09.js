@@ -131,11 +131,11 @@ currencyUSD.onload = function (){
     if(currencyUSD.status >= 200 && currencyUSD.status < 300){
         let countriesData = JSON.parse(this.responseText);
         
-        let curriency = countriesData.filter((cur) => {
+        let currency = countriesData.filter((cur) => {
             return cur.currencies.some(cur2 => cur2.code==="USD")
         }).map(country => country.name);
 
-        console.log(curriency)
+        console.log(currency)
        
     }else{
         console.log("Request Failed");
