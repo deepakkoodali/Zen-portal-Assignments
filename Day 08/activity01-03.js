@@ -42,18 +42,18 @@ class Circle {
         this.color = color;
 
     }
-    getRadius(){
+    get Radius(){
         return this.radius;
     }
 
-    setRadius(newradius){
+    set Radius(newradius){
         this.radius = newradius;
 
     }
-    getColor(){
+    get Color(){
         return this.color;
     }
-    setColor(newcolor){
+    set Color(newcolor){
         this.color = newcolor;
 
     }
