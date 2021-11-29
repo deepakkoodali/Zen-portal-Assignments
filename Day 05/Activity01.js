@@ -2,9 +2,6 @@
 
 //Activity 01
 
-// NOTE - Kept whole program on comment as the variable names are used multiple time,
-// Remove the comment for IIFE functions and anonymous function seperatly as both contains same variables and functions
-
 //Do the below programs in anonymous function & IIFE
 
 //IIFE functions
