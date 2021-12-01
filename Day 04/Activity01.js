@@ -25,3 +25,6 @@
     }
   
    console.log(flag)  
+
+
+// output: - true
