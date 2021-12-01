@@ -167,6 +167,29 @@
     Email : ${jsondata[i].email}`)
     };
 
+// Output - 
+/*
+    Id : 1
+    Name : Lura Senger
+    Email : Xander_Collier@yahoo.com
+
+    Id : 2
+    Name : Wilburn Weber
+    Email : Bennett_Kreiger11@yahoo.com
+
+    Id : 3
+    Name : Tyrique Hahn
+    Email : Juston.Altenwerth@yahoo.com
+
+    //............(continue till id 30)
+    
+    Id : 30
+    Name : Berniece Bradtke
+    Email : Okey.Fisher39@hotmail.com
+*/
+
+
+
 
 
  // Solution in For-in loop
@@ -177,6 +200,30 @@
     Name : ${jsondata[elements].name}
     Email : ${jsondata[elements].email}`)
     };
+
+// Output - 
+/*
+    Id : 1
+    Name : Lura Senger
+    Email : Xander_Collier@yahoo.com
+
+    Id : 2
+    Name : Wilburn Weber
+    Email : Bennett_Kreiger11@yahoo.com
+
+    Id : 3
+    Name : Tyrique Hahn
+    Email : Juston.Altenwerth@yahoo.com
+    
+    //............(continue till id 30)
+    
+    Id : 30
+    Name : Berniece Bradtke
+    Email : Okey.Fisher39@hotmail.com
+*/
+
+
+
 
 
 
@@ -189,7 +236,32 @@
     Email : ${elements.email}`)
     };
     
+// Output - 
+/*
+    Id : 1
+    Name : Lura Senger
+    Email : Xander_Collier@yahoo.com
+
+    Id : 2
+    Name : Wilburn Weber
+    Email : Bennett_Kreiger11@yahoo.com
+
+    Id : 3
+    Name : Tyrique Hahn
+    Email : Juston.Altenwerth@yahoo.com
     
+    //............(continue till id 30)
+    
+    Id : 30
+    Name : Berniece Bradtke
+    Email : Okey.Fisher39@hotmail.com
+*/
+    
+
+
+
+
+
     
  // Solution in ForEach loop
      
@@ -199,3 +271,23 @@
     Name : ${elements.name}
     Email : ${elements.email}`)
     });
+// Output - 
+/*
+    Id : 1
+    Name : Lura Senger
+    Email : Xander_Collier@yahoo.com
+
+    Id : 2
+    Name : Wilburn Weber
+    Email : Bennett_Kreiger11@yahoo.com
+
+    Id : 3
+    Name : Tyrique Hahn
+    Email : Juston.Altenwerth@yahoo.com
+    
+    //............(continue till id 30)
+    
+    Id : 30
+    Name : Berniece Bradtke
+    Email : Okey.Fisher39@hotmail.com
+*/
