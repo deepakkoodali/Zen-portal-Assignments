@@ -15,6 +15,16 @@ let array1F = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
         }
     }
 })();
+/* Output - 
+1
+3
+5
+7
+9
+11
+13
+*/
+
 
 
 // b. convert all the strings to title caps in a string array
@@ -28,6 +38,8 @@ let array2F = ["ram","shyam","mohan","geetha","sridevi"];
     }
     console.log(array2F)
 })();
+// Output - [ 'RAM', 'SHYAM', 'MOHAN', 'GEETHA', 'SRIDEVI' ]
+
 
 
 // c. Sum of all numbers in an array
@@ -41,6 +53,8 @@ let array3F = [10,20,30,40,50,60,70,80,90];
     }
     console.log(sum)
 })();
+// Output - 450
+
 
 
 // d. Return all the prime numbers in an array
@@ -70,6 +84,8 @@ let primeArray1 = (function(){
     return arr3;
 })();
 console.log(primeArray1);
+// output - [ 2, 3, 5, 11, 17, 31, 89 ]
+
 
 
 // e. Return all the palindromes in an array
@@ -93,6 +109,8 @@ let palindromeArray1 = (function(){
     return arrPal;
 })();
 console.log(palindromeArray1);
+// Output - [ 'malayalam', 'civic', 'racecar', 'level' ]
+
 
 
 // f. Return median of two sorted arrays of same size
@@ -113,6 +131,8 @@ let median1 = (function(){
 
 })();
 console.log(median1);
+// Output - 14
+
 
 
 // g. Remove duplicates from an array
@@ -129,6 +149,8 @@ let array6F = ["holi","christmas","eid","diwali","christmas","eid","christmas",3
     }
   console.log(uniq)
 })();
+// Output - [ 'holi', 'christmas', 'eid', 'diwali', 3, 4, 5, 9, 2 ]
+
 
 
 // k. Rotate an array by k times
@@ -151,6 +173,8 @@ let k1 = 3;
     }
     console.log(array7F)
 })();
+// Output - [ 4, 5, 6, 7, 8, 1, 2, 3 ]
+
 
 
 // Anonymous function
@@ -168,6 +192,16 @@ let oddArray = function(){
     }
 };
 oddArray();
+/* Output - 
+1
+3
+5
+7
+9
+11
+13
+*/
+
 
 
 // b. convert all the strings to title caps in a string array
@@ -183,6 +217,8 @@ let arrayCaps = function(){
 };
 
 arrayCaps();
+// Output - [ 'RAM', 'SHYAM', 'MOHAN', 'GEETHA', 'SRIDEVI' ]
+
 
 
 // c. Sum of all numbers in an array
@@ -198,6 +234,7 @@ let sumArray = function(arr){
 };
 
 console.log(sumArray(array3));
+// Output - 450
 
 
 
@@ -229,6 +266,8 @@ let primeArray = function(arr){
 };
 
 console.log(primeArray(array4))
+// Output - [ 2, 3, 5, 11, 17, 31, 89 ]
+
 
 
 // e. Return all the palindromes in an array
@@ -253,6 +292,8 @@ let palindromeArray = function(){
 };
 
 console.log(palindromeArray(array5))
+// Output - [ 'malayalam', 'civic', 'racecar', 'level' ]
+
 
 
 // f. Return median of two sorted arrays of same size
@@ -275,6 +316,8 @@ let median = function(arr1,arr2){
 
 median(arr1,arr2);
 console.log(median(arr1,arr2));
+// Output - 14
+
 
 
 // g. Remove duplicates from an array
@@ -293,6 +336,8 @@ let uniqueArray = function(arr){
 };
 
 console.log(uniqueArray(array6))
+// Output - [ 'holi', 'christmas', 'eid', 'diwali', 3, 4, 5, 9, 2 ]
+
 
 
 // k. Rotate an array by k times
@@ -317,4 +362,4 @@ let rotateFunction = function(arr,k){
 };
 
 console.log(rotateFunction(array7,kTimes));
-
+// Output - [ 4, 5, 6, 7, 8, 1, 2, 3 ]
