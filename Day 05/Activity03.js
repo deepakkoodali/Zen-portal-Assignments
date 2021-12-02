@@ -7,29 +7,41 @@
 // a. Print odd numbers in an array
 
 let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
-let oddArray = () => {
+let oddArray = (array1) => {
     for(let i in array1){
         if(array1[i]%2===1){
             console.log(array1[i]);
         }
     }
 };
-oddArray();
+oddArray(array1);
+/* Output - 
+1
+3
+5
+7
+9
+11
+13
+*/
+
 
 
 // b. convert all the strings to title caps in a string array
 
 let array2 = ["ram","shyam","mohan","geetha","sridevi"];
 
-let arrayCaps = () => {
+let arrayCaps = (array2) => {
 
     for(let i in array2){
        array2[i] = array2[i].toUpperCase();
     }
-    console.log(array2)
+    return array2;
 };
 
-arrayCaps();
+console.log(arrayCaps(array2));
+// Output - [ 'RAM', 'SHYAM', 'MOHAN', 'GEETHA', 'SRIDEVI' ]
+
 
 
 // c. Sum of all numbers in an array
@@ -45,6 +57,7 @@ let sumArray = (arr) => {
 };
 
 console.log(sumArray(array3));
+// Output - 450
 
 
 
@@ -76,13 +89,15 @@ let primeArray = (arr) => {
 };
 
 console.log(primeArray(array4))
+// Output - [ 2, 3, 5, 11, 17, 31, 89 ]
+
 
 
 // e. Return all the palindromes in an array
 
 let array5 = ["malayalam","tamil","civic","racecar","accord","level"];
 
-let palindromeArray = () => {
+let palindromeArray = (array5) => {
     arrPal = [];
     for(let i=0;i<array5.length;i++){
         flag=true
@@ -100,4 +115,4 @@ let palindromeArray = () => {
 };
 
 console.log(palindromeArray(array5))
-
+// output - [ 'malayalam', 'civic', 'racecar', 'level' ]
