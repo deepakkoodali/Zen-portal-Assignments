@@ -30,6 +30,8 @@ countriesAsia.onload = function (){
 
 countriesAsia.send();
 
+// Output - (Detailed array consistig total of 50 countries) 
+
 
 
 
@@ -58,6 +60,8 @@ lowPopulation.onload = function (){
 };
 
 lowPopulation.send();
+
+// Output - (Detailed array consistig total of 63 countries)
 
 
 
@@ -89,6 +93,16 @@ printForEach.onload = function (){
 
 printForEach.send();
 
+// Output - (All countries from the given API in the format from 
+// Name : Afghanistan
+// Capital : Kabul
+// Flag : https://restcountries.eu/data/afg.svg
+
+// till
+// Name : Zimbabwe
+// Capital : Harare
+// Flag : https://restcountries.eu/data/zwe.svg
+
 
 
 
@@ -117,6 +131,8 @@ populationTotal.onload = function (){
 
 populationTotal.send();
 
+// Output - 7349137231
+
 
 
 
@@ -143,3 +159,28 @@ currencyUSD.onload = function (){
 };
 
 currencyUSD.send();
+
+// Output -
+// 0: "American Samoa"
+// 1: "Bonaire, Sint Eustatius and Saba"
+// 2: "British Indian Ocean Territory"
+// 3: "United States Minor Outlying Islands"
+// 4: "Virgin Islands (British)"
+// 5: "Virgin Islands (U.S.)"
+// 6: "Cambodia"
+// 7: "Ecuador"
+// 8: "El Salvador"
+// 9: "Guam"
+// 10: "Marshall Islands"
+// 11: "Micronesia (Federated States of)"
+// 12: "Northern Mariana Islands"
+// 13: "Palau"
+// 14: "Panama"
+// 15: "Puerto Rico"
+// 16: "Timor-Leste"
+// 17: "Turks and Caicos Islands"
+// 18: "United States of America"
+// 19: "Zimbabwe"
+// length: 20
+
+
