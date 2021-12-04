@@ -26,8 +26,8 @@ class Movie{
 let thisMovie = [new Movie("Casino Royale","eon Production","PG13")]
 
 console.log(thisMovie[0].getPG(thisMovie))
-//console.log(Movie.getPG(thisMovie)) // static method
-//using a static method we can call it like this as method of a class itself
+
+// Output - []
 
 
 
@@ -77,6 +77,7 @@ let thisCircle = new Circle(1.0,"red");
 
 console.log(thisCircle.getCircumference());
 
+// Output - 6.28318
 
 
 
@@ -112,4 +113,9 @@ let person1 = new Person("Deepak","Ramesh","23","Male","Trivandrum","Student");
 
 console.log(person1.getDetails());
 
-
+// Output -
+// Name: Deepak Ramesh
+// Age: 23
+// Gender: Male
+// Place: Trivandrum
+// Profile: Student
