@@ -83,4 +83,4 @@ let newObj = new Uber({"distnace":8,"vehicle":"uber_pool","time":960,"customer_i
 
 console.log(newObj.getPrice());
 
-
+// Output - INR 138/-
